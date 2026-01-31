@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A3B8F5192EAFEE4C00AB7C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B8F5032EAFEE4B00AB7C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B8F50A2EAFEE4B00AB7C0E;
+			remoteInfo = Kalon;
+		};
+		A3B8F5232EAFEE4D00AB7C0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3B8F5032EAFEE4B00AB7C0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3B8F50A2EAFEE4B00AB7C0E;
+			remoteInfo = Kalon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3B8F50B2EAFEE4B00AB7C0E /* Kalon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B8F5182EAFEE4C00AB7C0E /* KalonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B8F5222EAFEE4D00AB7C0E /* KalonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3B8F50D2EAFEE4B00AB7C0E /* Kalon */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kalon;
+			sourceTree = "<group>";
+		};
+		A3B8F51B2EAFEE4C00AB7C0E /* KalonTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KalonTests;
+			sourceTree = "<group>";
+		};
+		A3B8F5252EAFEE4D00AB7C0E /* KalonUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KalonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B8F5082EAFEE4B00AB7C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F5152EAFEE4C00AB7C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F51F2EAFEE4D00AB7C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B8F5022EAFEE4B00AB7C0E = {
+			isa = PBXGroup;
+			children = (
+				A3B8F50D2EAFEE4B00AB7C0E /* Kalon */,
+				A3B8F51B2EAFEE4C00AB7C0E /* KalonTests */,
+				A3B8F5252EAFEE4D00AB7C0E /* KalonUITests */,
+				A3B8F50C2EAFEE4B00AB7C0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B8F50C2EAFEE4B00AB7C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B8F50B2EAFEE4B00AB7C0E /* Kalon.app */,
+				A3B8F5182EAFEE4C00AB7C0E /* KalonTests.xctest */,
+				A3B8F5222EAFEE4D00AB7C0E /* KalonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B8F50A2EAFEE4B00AB7C0E /* Kalon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B8F52C2EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "Kalon" */;
+			buildPhases = (
+				A3B8F5072EAFEE4B00AB7C0E /* Sources */,
+				A3B8F5082EAFEE4B00AB7C0E /* Frameworks */,
+				A3B8F5092EAFEE4B00AB7C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3B8F50D2EAFEE4B00AB7C0E /* Kalon */,
+			);
+			name = Kalon;
+			packageProductDependencies = (
+			);
+			productName = Kalon;
+			productReference = A3B8F50B2EAFEE4B00AB7C0E /* Kalon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3B8F5172EAFEE4C00AB7C0E /* KalonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B8F52F2EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "KalonTests" */;
+			buildPhases = (
+				A3B8F5142EAFEE4C00AB7C0E /* Sources */,
+				A3B8F5152EAFEE4C00AB7C0E /* Frameworks */,
+				A3B8F5162EAFEE4C00AB7C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B8F51A2EAFEE4C00AB7C0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3B8F51B2EAFEE4C00AB7C0E /* KalonTests */,
+			);
+			name = KalonTests;
+			packageProductDependencies = (
+			);
+			productName = KalonTests;
+			productReference = A3B8F5182EAFEE4C00AB7C0E /* KalonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3B8F5212EAFEE4D00AB7C0E /* KalonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B8F5322EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "KalonUITests" */;
+			buildPhases = (
+				A3B8F51E2EAFEE4D00AB7C0E /* Sources */,
+				A3B8F51F2EAFEE4D00AB7C0E /* Frameworks */,
+				A3B8F5202EAFEE4D00AB7C0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3B8F5242EAFEE4D00AB7C0E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3B8F5252EAFEE4D00AB7C0E /* KalonUITests */,
+			);
+			name = KalonUITests;
+			packageProductDependencies = (
+			);
+			productName = KalonUITests;
+			productReference = A3B8F5222EAFEE4D00AB7C0E /* KalonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B8F5032EAFEE4B00AB7C0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					A3B8F50A2EAFEE4B00AB7C0E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					A3B8F5172EAFEE4C00AB7C0E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A3B8F50A2EAFEE4B00AB7C0E;
+					};
+					A3B8F5212EAFEE4D00AB7C0E = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = A3B8F50A2EAFEE4B00AB7C0E;
+					};
+				};
+			};
+			buildConfigurationList = A3B8F5062EAFEE4B00AB7C0E /* Build configuration list for PBXProject "Kalon" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3B8F5022EAFEE4B00AB7C0E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3B8F50C2EAFEE4B00AB7C0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B8F50A2EAFEE4B00AB7C0E /* Kalon */,
+				A3B8F5172EAFEE4C00AB7C0E /* KalonTests */,
+				A3B8F5212EAFEE4D00AB7C0E /* KalonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B8F5092EAFEE4B00AB7C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F5162EAFEE4C00AB7C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F5202EAFEE4D00AB7C0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B8F5072EAFEE4B00AB7C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F5142EAFEE4C00AB7C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3B8F51E2EAFEE4D00AB7C0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3B8F51A2EAFEE4C00AB7C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B8F50A2EAFEE4B00AB7C0E /* Kalon */;
+			targetProxy = A3B8F5192EAFEE4C00AB7C0E /* PBXContainerItemProxy */;
+		};
+		A3B8F5242EAFEE4D00AB7C0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3B8F50A2EAFEE4B00AB7C0E /* Kalon */;
+			targetProxy = A3B8F5232EAFEE4D00AB7C0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3B8F52A2EAFEE4D00AB7C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3B8F52B2EAFEE4D00AB7C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B8F52D2EAFEE4D00AB7C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.Kalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3B8F52E2EAFEE4D00AB7C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.Kalon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3B8F5302EAFEE4D00AB7C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.KalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kalon";
+			};
+			name = Debug;
+		};
+		A3B8F5312EAFEE4D00AB7C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.KalonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kalon";
+			};
+			name = Release;
+		};
+		A3B8F5332EAFEE4D00AB7C0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.KalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalon;
+			};
+			name = Debug;
+		};
+		A3B8F5342EAFEE4D00AB7C0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.organge.KalonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B8F5062EAFEE4B00AB7C0E /* Build configuration list for PBXProject "Kalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B8F52A2EAFEE4D00AB7C0E /* Debug */,
+				A3B8F52B2EAFEE4D00AB7C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B8F52C2EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "Kalon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B8F52D2EAFEE4D00AB7C0E /* Debug */,
+				A3B8F52E2EAFEE4D00AB7C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B8F52F2EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "KalonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B8F5302EAFEE4D00AB7C0E /* Debug */,
+				A3B8F5312EAFEE4D00AB7C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B8F5322EAFEE4D00AB7C0E /* Build configuration list for PBXNativeTarget "KalonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B8F5332EAFEE4D00AB7C0E /* Debug */,
+				A3B8F5342EAFEE4D00AB7C0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B8F5032EAFEE4B00AB7C0E /* Project object */;
+}
