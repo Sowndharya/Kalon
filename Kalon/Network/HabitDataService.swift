@@ -148,19 +148,17 @@ let mockRoutines: [Routine] = [
 
 // ⭐️ NEW: Mock Habit Groups
 let mockHabitGroups: [HabitGroup] = [
-    HabitGroup(id: mockHabitGroupOralID, name: "Oral Hygiene", order: 1, routineId: mockRoutineMorningID),
+    HabitGroup(id: mockHabitGroupOralID, name: "Wake Up", order: 1, routineId: mockRoutineMorningID),
     HabitGroup(id: mockHabitGroupMeditID, name: "Mindfulness", order: 2, routineId: mockRoutineMorningID),
     HabitGroup(id: UUID().uuidString, name: "Wind Down", order: 1, routineId: mockRoutineEveningID)
 ]
 
 // B. Mock Habit Definitions
 let mockHabits: [HabitDefinition] = [
-    HabitDefinition(id: UUID().uuidString, name: "Brush Teeth", type: "time", unit: "minutes", initialTarget: 2), // ID 1
-    HabitDefinition(id: UUID().uuidString, name: "Floss", type: "boolean", unit: nil, initialTarget: 0), // ID 2
-    HabitDefinition(id: UUID().uuidString, name: "Tongue Clean", type: "boolean", unit: nil, initialTarget: 0), // ID 3
-    HabitDefinition(id: UUID().uuidString, name: "Deep Breaths", type: "count", unit: "breaths", initialTarget: 10), // ID 4
+    HabitDefinition(id: UUID().uuidString, name: "Drink Water", type: "number", unit: "cup", initialTarget: 1), // ID 1
+    HabitDefinition(id: UUID().uuidString, name: "Make Bed", type: "boolean", unit: nil, initialTarget: 0), // ID 2
     HabitDefinition(id: UUID().uuidString, name: "Sit Quietly", type: "time", unit: "minutes", initialTarget: 5), // ID 5
-    HabitDefinition(id: UUID().uuidString, name: "Read Fiction", type: "time", unit: "minutes", initialTarget: 30), // ID 6
+    HabitDefinition(id: UUID().uuidString, name: "Read", type: "time", unit: "minutes", initialTarget: 30), // ID 6
     HabitDefinition(id: UUID().uuidString, name: "Prep Clothes for Tomorrow", type: "boolean", unit: nil, initialTarget: 0) // ID 7
 ]
 
@@ -170,9 +168,7 @@ var mockHabitGroupDefinitions: [String: (routineId: String, groupId: String)] = 
     mockHabits[1].id!: (mockRoutineMorningID, mockHabitGroupOralID),
     mockHabits[2].id!: (mockRoutineMorningID, mockHabitGroupOralID),
     mockHabits[3].id!: (mockRoutineMorningID, mockHabitGroupMeditID),
-    mockHabits[4].id!: (mockRoutineMorningID, mockHabitGroupMeditID),
-    mockHabits[5].id!: (mockRoutineEveningID, mockHabitGroups[2].id!),
-    mockHabits[6].id!: (mockRoutineEveningID, mockHabitGroups[2].id!)
+    mockHabits[4].id!: (mockRoutineMorningID, mockHabitGroupMeditID)
 ]
 
 // C. Mock Log Entries (for yesterday - updated to use new IDs)
