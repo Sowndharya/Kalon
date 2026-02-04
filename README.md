@@ -1,3 +1,5 @@
+*** Please note: This App was the result of a vibe coding exercise :) ***
+
 # Kalon: Dynamic Routine Tracking Application ☀️🌙
 
 Kalon is an iOS application developed with SwiftUI for routine management. The system uses hierarchical data structures to organize habits and integrates an LLM-based service to provide summaries of user performance data. It is designed to eventually incorporate physiological data (such as menstrual cycle tracking) to contextualize habit success rates.
